@@ -1,4 +1,3 @@
-import Topbar from "./components/topbar/TopBar";
 import Homepage from "./pages/homepage/Homepage";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
@@ -13,7 +12,7 @@ function App() {
   return (
     <>
     <Router>
-      {/* <Topbar /> */}
+     
       <Routes>
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/register" element={<Register />}></Route>
